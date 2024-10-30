@@ -3,10 +3,15 @@
     height: 50px;
     background-color: #ff5722;
     position: relative;
-    animation: move 4s infinite;
+    animation: move 4s infinite, changeColor 2s infinite;
 }
 @keyframes move {
     0% { left: 0; }
     50% { left: 200px; }
     100% { left: 0;}
+}
+ 
+@keyframes changeColor{
+    0% { background-color: red; }
+    100% { background-color: blue; }
 }
