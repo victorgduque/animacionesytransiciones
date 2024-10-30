@@ -4,6 +4,7 @@
     background-color: #ff5722;
     position: relative;
     animation: move 4s infinite, changeColor 2s infinite;
+    border-radius: 100px;
 }
 @keyframes move {
     0% { left: 0; }
@@ -13,5 +14,15 @@
  
 @keyframes changeColor{
     0% { background-color: red; }
+    10% { background-color: chartreuse;}
+    20% { background-color:cyan;}
+    30% { background-color: greenyellow;}
+    40% { background-color: darkcyan;}
+    50% { background-color: blueviolet;}
+    60% { background-color: darkkhaki;}
+    70% { background-color: magenta;}
+    80% { background-color: paleturquoise;}
+    90% { background-color: darkturquoise;}
     100% { background-color: blue; }
 }
+
